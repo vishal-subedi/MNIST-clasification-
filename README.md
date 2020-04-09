@@ -16,6 +16,7 @@ flask_deploy
     |
     |---- keras_flask.py
     
+Running mnist.py will save 2 files in your cwd - "model.json" & "model.h5" which contain information about the model and its weights.
 The above 3 files form the front-end of our web app with which the user will interact. 
 You will draw a figure with the help of your mouse inside a box which will be converted into an image of size 28x28 and will be passed to our saved model. 
 The code to handle this exchange will be taken care by Flask. 
